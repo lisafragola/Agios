@@ -2,6 +2,6 @@
 export const PRIX_EUR = 9; // prix mensuel (modifiable)
 export const PRIX_CENTIMES = PRIX_EUR * 100;
 export const PRIX_PAR_JOUR = (PRIX_EUR / 30).toFixed(2).replace(".", ",");
-export const CONTACT_EMAIL = "lisagrassimoreno@gmail.com";
+export const CONTACT_EMAIL = "agios.officiel@gmail.com";
 export const GARANTIE_JOURS = 14;
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
