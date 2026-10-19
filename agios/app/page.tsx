@@ -91,10 +91,11 @@ export default async function Accueil({ searchParams }: { searchParams: Promise<
         )}
         <div className="rounded-2xl bg-sapin text-creme p-6">
           <p className="inline-block rounded-full bg-creme/15 px-3 py-1 text-sm font-medium">Accès anticipé</p>
-          <h2 className="font-titre text-3xl font-semibold mt-3 leading-tight">Ton plan est prêt. Il ne reste qu’à l’ouvrir.</h2>
+                    <h2 className="font-titre text-3xl font-semibold mt-3 leading-tight">Récupère tes frais parmi les premiers.</h2>
           <p className="mt-3 leading-relaxed text-creme/90">
-            Une seule commission d’intervention plafonnée peut coûter 80 € en un mois. L’abonnement coûte{" "}
-            <strong>{PRIX_EUR} €</strong> : une seule réclamation acceptée le rembourse largement.
+            L’outil est en cours de finition : ton accès t’est envoyé par email dès son ouverture. Tant qu’il n’est pas
+            ouvert, tu peux demander le remboursement intégral à tout moment. Une seule commission d’intervention peut
+            coûter 80 € en un mois : à <strong>{PRIX_EUR} €</strong>, une réclamation acceptée rembourse largement l’abonnement.
           </p>
 
           <p className="mt-6 font-titre text-5xl font-semibold">
